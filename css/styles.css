@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(0deg, #00ead3, #ffb26b 50%) fixed;
+  margin: 0;
+  text-align: center;
+}
+
+#header-home {
+  background-image: url("file:///C:/Users/user/Desktop/floral/images/tookan.png");
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  width: 90%;
+  height: 510px;
+  color: white;
+  text-align: center;
+  position: relative;
+  margin: 50px auto;
+  border-left: 5px solid #7c6337;
+}
+#header-home h1, #header-home h2 {
+    text-shadow: 0 0 10px rgba(0,0,0,.25);
+    }
+    h1 {
+      color:#FFF;
+      height: 50px;
+      line-height: 50px;
+      font-size: 80px;
+    }
+    h2 {
+      color:#FFF;
+      height: 50px;
+      line-height: 50px;
+      font-size: 50px;
+    }
+
+.top-container {
+  position: relative;
+  padding-top: 50px;
+  width: 100%;
+  height: auto;
+}
+.viola {
+  position:absolute;
+    right: 0;
+    top: 0;
+    width:30%;
+  }
+p {
+  color:#f8f3eb;
+  text-shadow: 0 0 10px rgba(0,0,0,.25);
+  height: 50px;
+  line-height: 50px;
+  font-size: 40px;
+  margin: 5px;
+    }
+
+  .parent-container {
+    position: relative;
+    width: 100%;
+    height:auto;
+    text-align: center;
+  }
+
+  .pair-container-1 {
+    position: absolute;
+    left: 5%;
+    width: 600px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.1);
+
+  }
+  .pair-container-1 img {
+    margin-top: 30px;
+   height: 95%;
+   width: 70%;
+}
+  .pair-container-2 {
+    position: absolute;
+    right: 5%;
+    width: 600px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .pair-container-2 img {
+    margin-top: 50px;
+   height: 90%;
+   width: 70%;
+}
+
+  .bottom-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 800px;
+  }
+  .bottom {
+    position:relative;
+      bottom: 0;
+      width:100%;
+      display:block;
+  }
