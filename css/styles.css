@@ -17,12 +17,6 @@ body {
   margin: 50px auto;
   border-left: 5px solid #7c6337;
 }
-/*.tookan30 {
-position:absolute;
-    left: 0;
-    top: 30px;
-    width:10%;
-  }*/
 #header-home h1, #header-home h2 {
     text-shadow: 0 0 10px rgba(0,0,0,.25);
     }
@@ -32,11 +26,21 @@ position:absolute;
       line-height: 50px;
       font-size: 80px;
     }
+    h1:hover {
+      font-size: 90px;
+      color:yellow;
+    }
+
     h2 {
       color:#FFF;
       height: 50px;
       line-height: 50px;
       font-size: 50px;
+    }
+
+    h2:hover {
+      font-size: 60px;
+      color:yellow;
     }
 
 .top-container {
@@ -75,6 +79,10 @@ p {
     background-color: rgba(255, 255, 255, 0.1);
 
   }
+  .pair-container-1:hover {
+    background-color: rgba(244, 208, 63, 0.1);
+
+  }
   .pair-container-1 img {
     margin-top: 30px;
    height: 95%;
@@ -86,6 +94,9 @@ p {
     width: 600px;
     height: 600px;
     background-color: rgba(255, 255, 255, 0.1);
+  }
+  .pair-container-2:hover {
+    background-color: rgba(52, 73, 94, 0.1);
   }
   .pair-container-2 img {
     margin-top: 50px;
@@ -104,4 +115,8 @@ p {
       bottom: 0;
       width:100%;
       display:block;
+  }
+  .bottom:hover {
+border-top: 5px solid rgba(242, 120, 75, 0.1);
+  background-color: rgba(44, 62, 80, 0.1);
   }
